@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="calciContainer">
+            <div class="inputField">
+                <p id="old"> </p>
+                <input type="text" name="textBox" id="box">
+            </div>
+            <div class="numbers">
+                <button class="btn num-divide" onclick="show('/')">/</button>
+                <button class="btn num-multiply" onclick="show('*')">*</button>
+                <button class="btn num-add" onclick="show('+')">+</button>
+                <button class="btn num-sub" onclick="show('-')">-</button>
+                <button class="btn num-allClear" onclick="allClear()">AC</button>
+                <button class="btn num-clear" onclick="remove()">C</button>
+                <button class="btn num-1" onclick="show('1')">1</button>
+                <button class="btn num-2" onclick="show('2')">2</button>
+                <button class="btn num-3" onclick="show('3')">3</button>
+                <button class="btn num-4" onclick="show('4')">4</button>
+                <button class="btn num-5" onclick="show('5')">5</button>
+                <button class="btn num-6" onclick="show('6')">6</button>
+                <button class="btn num-7" onclick="show('7')">7</button>
+                <button class="btn num-8"onclick="show('8')">8</button>
+                <button class="btn num-9" onclick="show('9')">9</button>
+                <button class="btn num-0" onclick="show('0')">0</button>
+                <button class="btn num-dot" onclick="show('.')">.</button>
+                <button class="btn num-equal" onclick="result()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
